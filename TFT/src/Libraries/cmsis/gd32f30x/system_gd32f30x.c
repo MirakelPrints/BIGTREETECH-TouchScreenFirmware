@@ -113,7 +113,11 @@ static void system_clock_config(void);
     \param[out] none
     \retval     none
 */
-void SystemClockInit (void) //void SystemInit (void) Modif_fred
+void SystemInit (void)
+{
+    // do nothing
+}
+void SystemClockInit (void)
 {
   /* FPU settings */
 #if (__FPU_PRESENT == 1) && (__FPU_USED == 1)
